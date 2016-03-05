@@ -1,0 +1,26 @@
+{{ partial "header.html" }}
+{{ partial "siteheader.html" }}
+<h1>Reading</h1>
+<div class="info">
+    <p>I've read tons of books over the years. Most of them are currently listed only on
+        my Goodreads profile but I'll try to move them over here including reviews and
+        general notes.</p>
+    <p>Please be aware that these notes and reviews may contain spoilers!</p>
+</div>
+<section>
+    <h2>Current readings</h2>
+    <ul>
+        {{ range (sort (where .Data.Pages ".Params.active" ">" 0) ".Params.active" )}}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a> by {{ .Params.author }}</li>
+        {{ end }}
+    </ul>
+</section>
+<section>
+    <h2>Archive</h2>
+    <ul>
+        {{ range (sort (where .Data.Pages ".Params.active" nil) ".Params.finished") }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a> by {{ .Params.author }} (finished on {{ dateFormat "Jan 2, 2006" .Params.finished }})</li>
+        {{ end }}
+    </ul>
+</section>
+{{ partial "footer.html" }}

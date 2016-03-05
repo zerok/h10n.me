@@ -1,0 +1,6 @@
+static/images/presences/*.png
+public
+deploy.sh
+*.css
+static/fonts/lobster*
+static/fonts/Museo*

@@ -1,0 +1,7 @@
+{{ partial "header.html" }}
+{{ partial "siteheader.html" }}
+<article class="book">
+    <h1>{{ .Title }} by {{ .Params.author }}</h1>
+    {{ .Content }}
+</article>
+{{ partial "footer.html" }}
