@@ -18,7 +18,7 @@
 <section>
     <h2>Archive</h2>
     <ul>
-        {{ range (sort (where .Data.Pages ".Params.active" nil) ".Params.finished") }}
+        {{ range (sort (where .Data.Pages ".Params.active" nil) ".Params.finished" "desc") }}
         <li><a href="{{ .Permalink }}">{{ .Title }}</a> by {{ .Params.author }} (finished on {{ dateFormat "Jan 2, 2006" .Params.finished }})</li>
         {{ end }}
     </ul>

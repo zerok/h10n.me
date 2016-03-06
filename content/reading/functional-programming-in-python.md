@@ -1,8 +1,8 @@
 ---
 title: Functional Programming in Python
 author: David Mertz
-active: 1
 date: 2016-03-03T21:22:02+01:00
+finished: 2016-03-05T21:22:02+01:00
 type: book
 ---
 
