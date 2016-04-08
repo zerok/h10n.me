@@ -16,6 +16,7 @@
 
 $orange: #fde676;
 $blue: #aafaff;
+$default-font: "Helvetica Neue", Helvetica, sans-serif;
 
 html {
     font-size: 62.5%;
@@ -27,7 +28,7 @@ html {
 
 body {
     font-size: 1.8rem;
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-family: $default-font;
     border-top: 5px solid $blue;
     /* background: #222; */
     color: #FFF;
@@ -155,6 +156,16 @@ nav {
         &:hover {
             border-bottom: none;
         }
+    }
+}
+
+article {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+        font-family: $default-font;
     }
 }
 
