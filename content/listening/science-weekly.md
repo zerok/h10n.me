@@ -4,5 +4,8 @@ title: Science Weekly
 type: podcast
 website: https://www.theguardian.com/science/series/science
 feed: http://www.guardian.co.uk/science/series/science/podcast.xml
-active: 1
 ---
+
+Sadly, in August 2017 they drifted a bit too much into esotheric topics and
+also somehow changed the format into something that wasn't all that pleasant to
+listen to anymore while on the go.
