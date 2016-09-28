@@ -3,7 +3,7 @@ date: "2016-02-28T15:55:52+01:00"
 title: "This Week in Tech"
 type: "podcast"
 website: "https://twit.tv/shows/this-week-in-tech"
-active: 1
+active: 0
 ---
 
 The classic one. It's been on and off my play list more times than I can
