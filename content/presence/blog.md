@@ -2,5 +2,5 @@
 type: presence
 title: My blog
 website: https://zerokspot.com/weblog/
-icon: blog
+icon: fas fa-rss-square
 ---

@@ -3,7 +3,7 @@ date: "2016-02-28T15:57:29+01:00"
 title: "JavaScript Jabber"
 website: "https://devchat.tv/js-jabber"
 type: "podcast"
-active: 1
+active: 0
 ---
 
 On my search for a general JavaScript podcast I accidentally stumbled upon

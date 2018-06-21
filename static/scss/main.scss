@@ -1,12 +1,4 @@
 @font-face {
-  font-family: 'Lobster 13';
-  src: url('../fonts/lobster_1.3-webfont.eot');
-  src: local('☺'), url('../fonts/lobster_1.3-webfont.woff') format('woff'), url('../fonts/lobster_1.3-webfont.ttf') format('truetype'), url('../fonts/lobster_1.3-webfont.svg#webfontX4pGz9fc') format('svg');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'Museo';
   src: url('../fonts/Museo300-Regular-webfont.eot');
   src: local('☺'), url('../fonts/Museo300-Regular-webfont.woff') format('woff'), url('../fonts/Museo300-Regular-webfont.ttf') format('truetype'), url('../fonts/Museo300-Regular-webfont.svg#webfontX4pGz9fc') format('svg');
@@ -37,6 +29,10 @@ body {
     margin: 0;
 }
 
+section {
+    margin-bottom: 5rem;
+}
+
 a {
     color: $orange;
     text-decoration: none;
@@ -53,7 +49,14 @@ a {
 }
 
 h1, h2 {
-    font-family: "Lobster 13", Georgia, serif;
+    font-family: "Museo", sans-serif;
+}
+
+h2 {
+    font-family: "Museo", sans-serif;
+    font-size: 2.8rem;
+    margin-bottom: 0;
+    line-height: 3.0rem;
 }
 
 .sitetitle {
@@ -71,10 +74,6 @@ h1, h2 {
     }
 }
 
-h2 {
-    font-size: 3.0rem;
-    line-height: 3.3rem;
-}
 
 .lists {
     width: 100%;
@@ -170,17 +169,34 @@ article {
 }
 
 .presences {
+    // background: #aafaff;
+    padding: 1rem;
+    color: $blue;
+    border-radius: 5px;
+    border: 1px solid $blue;
+
+    h2 {
+        margin-top: 0;
+        text-align: center;
+        display: none;
+    }
+
     ul {
         list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
     }
 
     li {
         display: inline-block;
+        margin: 0 1rem;
     }
 
     a {
         border-bottom: none;
         opacity: 0.8;
+        color: $blue;
         &:hover {
             border-bottom: none;
             opacity: 1.0;

@@ -4,7 +4,7 @@ title: Spieleveteranen
 type: podcast
 website: http://www.spieleveteranen.de/
 feed: http://www.spieleveteranen.de/archives/category/podcast/feed
-active: 1
+active: 0
 ---
 
 I stumbled upon this in mid 2015 and it has become one of my favorite shows

@@ -19,7 +19,7 @@
     <ul>
         {{ range (sort (where .Data.Pages "Type" "presence") "Title") }}
         <li>
-            <a href="{{ .Params.website }}"><img src="/images/presences/{{ .Params.icon }}.png" alt="{{ .Title }}"></a>
+            <a href="{{ .Params.website }}"><i class="{{ .Params.icon }}"></i> {{ .Title }}</a>
         </li>
         {{ end }}
     </ul>
@@ -27,7 +27,7 @@
 
 <div class="lists">
 <section class="podcastteasers">
-    <h2>Podcast Playlist</h2>
+    <h2><i class="fas fa-podcast"></i> Podcast Playlist</h2>
     <ul>
         {{ range (sort (where (where .Data.Pages "Type" "podcast") ".Params.active" ">" 0) "Title") }}
         <li>
@@ -37,17 +37,8 @@
     </ul>
 </section>
 <section class="readinglist">
-    <h2>Reading list</h2>
-    <p class="info">These are the books I'm currently reading with some accompanying notes. These may contain spoilers. You've been warned 😉</p>
-    <ul>
-        {{ range (sort (where (where .Data.Pages "Type" "book") ".Params.active" ">" 0) ".Params.active") }}
-        <li>
-            <h3><a href="{{ .Permalink }}">{{ .Title }}</a> by {{ .Params.author }}</h3>
-            <p>{{ .Summary }}</p>
-        </li>
-        {{ end }}
-    </ul>
-    <a href="/reading/">To the archive...</a>
+    <h2><i class="fas fa-book"></i> Reading list</h2>
+    <p class="info">I'm usually reading about two books a month, so keeping this list up to date wasn't really practical. Please check my GoodReads account for updates of my book collection 😊</p>
 </section>
 </div>
 {{ partial "footer.html" }}

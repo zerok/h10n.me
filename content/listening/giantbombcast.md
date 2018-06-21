@@ -3,7 +3,7 @@ date: "2016-02-28T15:49:16+01:00"
 title: "Giant Bombcast"
 type: "podcast"
 website: "http://www.giantbomb.com/podcasts/"
-active: 1
+active: 0
 ---
 
 I've been listening to this gaming podcast from the very first show (even before

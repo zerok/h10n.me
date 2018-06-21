@@ -4,5 +4,5 @@ title: Logbuch:Netzpolitik
 type: podcast
 website: http://logbuch-netzpolitik.de/
 feed: http://logbuch-netzpolitik.de/feed/m4a
-active: 1
+active: 0
 ---

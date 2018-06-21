@@ -4,5 +4,5 @@ title: Full Stack Radio
 type: podcast
 website: http://www.fullstackradio.com/
 feed: https://simplecast.com/podcasts/279/rss
-active: 1
+active: 0
 ---

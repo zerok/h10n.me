@@ -4,5 +4,5 @@ title: The Bugle
 type: podcast
 website: http://thebuglepodcast.com/
 feed: http://feeds.feedburner.com/thebuglefeed
-active: 1
+active: 0
 ---

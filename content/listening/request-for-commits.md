@@ -4,5 +4,7 @@ title: Request for Commits
 type: podcast
 website: https://changelog.com/rfc/
 feed: https://changelog.com/rfc/feed
-active: 1
+active: 0
 ---
+
+Listened to up until the very end 😭

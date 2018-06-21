@@ -4,5 +4,5 @@ title: Raumzeit
 type: podcast
 website: http://raumzeit-podcast.de/
 feed: http://raumzeit-podcast.de/feed/m4a/
-active: 1
+active: 0
 ---

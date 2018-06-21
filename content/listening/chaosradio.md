@@ -4,5 +4,5 @@ title: Chaosradio
 type: podcast
 website: http://chaosradio.ccc.de/chaosradio.html
 feed: http://chaosradio.ccc.de/chaosradio-latest.rss
-active: 1
+active: 0
 ---

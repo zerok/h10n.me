@@ -13,11 +13,11 @@ services and frameworks 😃
 
 Before that I studied Computer Science at the [University of Klagenfurt][uniklu].
 
-In my spare time I organise [PyGraz][] (the local [Python][] usergroup we have
-in Graz) and help organising [GoGraz][] ([Go][] Usergroup Graz). Outside of
-these two languages I'm also trying to get into [Elixir][] right now and enjoy
-getting to know new technologies and helping out in the opensource/free software
-community whenever I get the chance.
+In my spare I help organising [GoGraz][] ([Go][] Usergroup Graz). Previously, I
+was the organiser of the local [Python][] user-group in Graz, [PyGraz][].
+Outside of these two languages I'm also trying to get into [Rust][] right now
+and enjoy getting to know new technologies and helping out in the
+opensource/free software community whenever I get the chance.
 
 [graz]: https://en.wikipedia.org/wiki/Graz
 [nc]: http://netconomy.net
@@ -29,4 +29,4 @@ community whenever I get the chance.
 [pygraz]: https://pygraz.org/
 [python]: https://www.python.org/
 [go]: https://golang.org/
-[elixir]: http://elixir-lang.org/
+[rust]: https://www.rust-lang.org/en-US/
