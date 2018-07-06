@@ -1,6 +1,6 @@
 ---
 type: presence
 title: "Keybase"
-website: https://keybase.com/zerok
+website: https://keybase.io/zerok
 icon: fab fa-keybase
 ---
