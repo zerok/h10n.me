@@ -1,6 +1,7 @@
 static/images/presences/*.png
-public
+/public
 deploy.sh
 *.css
 static/fonts/lobster*
 static/fonts/Museo*
+/resources/_gen

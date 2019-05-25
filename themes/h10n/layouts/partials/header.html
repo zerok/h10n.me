@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8" />
         <title>{{ if .Title }}{{ .Title }} : {{ end }}Horst Gutmann (h10n.me)</title>
-        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        {{ $style := (resources.Get "scss/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint).Permalink }}
+        <link rel="stylesheet" type="text/css" href="{{ $style }}">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-87DrmpqHRiY8hPLIr7ByqhPIywuSsjuQAfMXAE0sMUpY3BM7nXjf+mLIUSvhDArs" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>

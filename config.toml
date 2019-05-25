@@ -1,7 +1,8 @@
-baseurl = "http://h10n.me"
+baseURL = "/"
 languageCode = "en-us"
 title = "Horst Gutmann"
 theme = "h10n"
 MetaDataFormat = "yaml"
 disableRSS = true
 disableSitemap = true
+assetDir = "static"
