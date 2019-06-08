@@ -9,6 +9,28 @@
     {{.Content}}
 </section>
 {{ end }}
+{{ $certs := (where .Data.Pages "Type" "certification") }}
+{{ if $certs }}
+<section>
+    <h2>Certifications</h2>
+    <table>
+      <thead>
+	<tr>
+	  <th>Name</th>
+	  <th>Validitiy</th>
+	</tr>
+      </thead>
+      <tbody>
+      {{ range $certs }}
+      <tr>
+      	<td>{{ if .URL }}<a href="{{ .Params.certificate_url }}">{{ .Title }}</a>{{ else }}{{.Title}}{{ end }}</td>
+	<td>{{ .Params.valid_from }} - {{ .Params.valid_until }}</td>
+      </tr>
+      {{ end }}
+      </tbody>
+    </table>
+</section>
+{{ end }}
 <section class="contact">
     <p>You can contact me via <a href="mailto:zerok@zerokspot.com">e-mail</a>. If you want to do that in an encrypted way, my key's fingerprint is...<br>
         <code>C4E0 2BA8 4048 3A5D 6B76  1607 6F20 3F0D 220F 8E98</code>.</p>

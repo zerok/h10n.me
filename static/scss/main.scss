@@ -208,6 +208,24 @@ article {
     }
 }
 
+th {
+    color: $blue;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+}
+thead {
+    border-bottom: 1px solid $blue;
+}
+td, th {
+    padding: 5px;
+}
+tbody > tr {
+    border-bottom: 1px solid #555;
+}
+
 @media screen and (max-width: 500px) {
     .page {
         padding: 0 10px;
